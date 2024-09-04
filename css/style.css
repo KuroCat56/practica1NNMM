@@ -20,3 +20,18 @@ body{
     width: 100% !important;
     height: 100vh;
 }
+
+.parrafo_justificado{
+    text-align: justify;
+}
+
+.parrafo_centrado{
+    text-align: center;
+}
+
+.mensaje{
+    color: tomato;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
