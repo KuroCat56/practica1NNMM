@@ -81,7 +81,7 @@ $arreglo_respuesta = array(
     "count"=>1
     );
 
-header("HTTP/1.1".$codigo_estado." ".$texto_estado);
+header("HTTP/1.1 ".$codigo_estado." ".$texto_estado);
 header("Context-Type: application/json");
-echo($arreglo_respuesta);
+echo(json_enconde($arreglo_respuesta));
 ?>
